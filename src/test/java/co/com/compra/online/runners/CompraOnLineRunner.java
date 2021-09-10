@@ -10,7 +10,9 @@ import cucumber.api.SnippetType;
 @CucumberOptions(
 		features="src\\test\\resources\\features\\compraonline.feature",//mapea la historia
         glue = "co.com.compra.online.stepdefinitions", //mapea los steps
-        snippets =SnippetType.CAMELCASE) //estandar de java
+        snippets =SnippetType.CAMELCASE,
+        format = {"progress", "html:target/Destination"}
+		) //estandar de java
 
 public class CompraOnLineRunner {
 

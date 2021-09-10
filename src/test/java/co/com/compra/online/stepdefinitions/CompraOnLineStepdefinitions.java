@@ -28,7 +28,7 @@ public class CompraOnLineStepdefinitions {
 	@When("^I fill in all the mandatory fields of the form$")
 	public void iFillInAllTheMandatoryFieldsOfTheForm() throws Exception {
 		Register.openCompraOnLinePage();
-		String email = "miguelariasg11@gmail.com";
+		String email = "miguelarzghiasg11@gmail.com";
 		String name = "juan";
 		String lastname = "figeroa munera";
 		String password = "123457";
