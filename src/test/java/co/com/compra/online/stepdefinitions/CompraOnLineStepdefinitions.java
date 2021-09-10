@@ -28,7 +28,7 @@ public class CompraOnLineStepdefinitions {
 	@When("^I fill in all the mandatory fields of the form$")
 	public void iFillInAllTheMandatoryFieldsOfTheForm() throws Exception {
 		Register.openCompraOnLinePage();
-		String email = "miguelarzghiasg11@gmail.com";
+		String email = "miguelarysg11@gmail.com";
 		String name = "juan";
 		String lastname = "figeroa munera";
 		String password = "123457";
@@ -54,7 +54,7 @@ public class CompraOnLineStepdefinitions {
 	public void iSelectTheCategoryOfSummerDresses() throws Exception {
 		Logueo.openCompraOnLinePage();
 		Logueo.digitarCorreoEletronico("miguelarias6@gmail.com");
-		Logueo.digitarContraseña("123457");			
+		Logueo.digitarContraseÃ±a("123457");			
 	}
 
 	@Given("^I select the most economical dress from the list of results$")
@@ -75,7 +75,7 @@ public class CompraOnLineStepdefinitions {
     //Assert
 	@Then("^I bought the dress$")
 	public void iBoughtTheDress() throws Exception {	    
-	   //System.out.println("La validación es: " + CompraLinea.confirmattionMessage);
+	   //System.out.println("La validaciÃ³n es: " + CompraLinea.confirmattionMessage);
 	   assertThat(CompraLinea.confirmattionMessage).isEqualToIgnoringCase("Your order on My Store is complete.");
 	}
 	
