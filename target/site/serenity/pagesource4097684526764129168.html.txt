@@ -1,0 +1,3882 @@
+<!DOCTYPE html><!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 " lang="en"><![endif]--><!--[if IE 7]><html class="no-js lt-ie9 lt-ie8 ie7" lang="en"><![endif]--><!--[if IE 8]><html class="no-js lt-ie9 ie8" lang="en"><![endif]--><!--[if gt IE 8]> <html class="no-js ie9" lang="en"><![endif]--><html xmlns="http://www.w3.org/1999/xhtml" lang="en" class=""><head>
+		<meta charset="utf-8" />
+		<title>Order history - My Store</title>
+		<meta name="generator" content="PrestaShop" />
+		<meta name="robots" content="index,follow" />
+		<meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.6, initial-scale=1.0" /> 
+		<meta name="apple-mobile-web-app-capable" content="yes" /> 
+		<link rel="icon" type="image/vnd.microsoft.icon" href="/img/favicon.ico?1461205423" />
+		<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico?1461205423" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/global.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/autoload/highdpi.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/autoload/responsive-tables.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/autoload/uniform.default.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/js/jquery/plugins/fancybox/jquery.fancybox.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/addresses.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/history.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/js/jquery/plugins/footable/jquery.footable.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blockbanner/blockbanner.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blockcart/blockcart.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blockcategories/blockcategories.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blockcurrencies/blockcurrencies.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blocklanguages/blocklanguages.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blockcontact/blockcontact.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blocknewsletter/blocknewsletter.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/js/jquery/plugins/autocomplete/jquery.autocomplete.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/product_list.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blocksearch/blocksearch.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blocktags/blocktags.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blockuserinfo/blockuserinfo.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blockviewed/blockviewed.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/modules/themeconfigurator/css/hooks.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blockwishlist/blockwishlist.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/productcomments/productcomments.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blocktopmenu/css/blocktopmenu.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/themes/default-bootstrap/css/modules/blocktopmenu/css/superfish-modified.css" type="text/css" media="all" />
+		<script type="text/javascript">
+var CUSTOMIZE_TEXTFIELD = 1;
+var FancyboxI18nClose = 'Close';
+var FancyboxI18nNext = 'Next';
+var FancyboxI18nPrev = 'Previous';
+var added_to_wishlist = 'Added to your wishlist.';
+var ajax_allowed = true;
+var ajaxsearch = true;
+var baseDir = 'http://automationpractice.com/';
+var baseUri = 'http://automationpractice.com/index.php';
+var blocksearch_type = 'top';
+var contentOnly = false;
+var customizationIdMessage = 'Customization #';
+var delete_txt = 'Delete';
+var displayList = false;
+var freeProductTranslation = 'Free!';
+var freeShippingTranslation = 'Free shipping!';
+var generated_date = 1541896796;
+var id_lang = 1;
+var img_dir = 'http://automationpractice.com/themes/default-bootstrap/img/';
+var instantsearch = false;
+var isGuest = 0;
+var isLogged = 1;
+var loggin_required = 'You must be logged in to manage your wishlist.';
+var mywishlist_url = 'http://automationpractice.com/index.php?fc=module&amp;module=blockwishlist&amp;controller=mywishlist';
+var page_name = 'history';
+var placeholder_blocknewsletter = 'Enter your e-mail';
+var priceDisplayMethod = 1;
+var priceDisplayPrecision = 2;
+var quickView = true;
+var removingLinkText = 'remove this product from my cart';
+var roundMode = 2;
+var search_url = 'http://automationpractice.com/index.php?controller=search';
+var static_token = 'f19bbdc31faf69ab1cdc9dbc70cbcda0';
+var token = 'a89dec91fd38561729b282e9b0a162c1';
+var usingSecureMode = false;
+var wishlistProductsIds = false;
+</script>
+
+		<script type="text/javascript" src="/js/jquery/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="/js/jquery/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="/js/jquery/plugins/jquery.easing.js"></script>
+		<script type="text/javascript" src="/js/tools.js"></script>
+		<script type="text/javascript" src="/themes/default-bootstrap/js/global.js"></script>
+		<script type="text/javascript" src="/themes/default-bootstrap/js/autoload/10-bootstrap.min.js"></script>
+		<script type="text/javascript" src="/themes/default-bootstrap/js/autoload/15-jquery.total-storage.min.js"></script>
+		<script type="text/javascript" src="/themes/default-bootstrap/js/autoload/15-jquery.uniform-modified.js"></script>
+		<script type="text/javascript" src="/js/jquery/plugins/fancybox/jquery.fancybox.js"></script>
+		<script type="text/javascript" src="/themes/default-bootstrap/js/products-comparison.js"></script>
+		<script type="text/javascript" src="/themes/default-bootstrap/js/history.js"></script>
+		<script type="text/javascript" src="/js/jquery/plugins/footable/jquery.footable.js"></script>
+		<script type="text/javascript" src="/js/jquery/plugins/footable-sort/jquery.footable-sort.js"></script>
+		<script type="text/javascript" src="/js/jquery/plugins/jquery.scrollTo.js"></script>
+		<script type="text/javascript" src="/themes/default-bootstrap/js/modules/blockcart/ajax-cart.js"></script>
+		<script type="text/javascript" src="/js/jquery/plugins/jquery.serialScroll.js"></script>
+		<script type="text/javascript" src="/js/jquery/plugins/bxslider/jquery.bxslider.js"></script>
+		<script type="text/javascript" src="/themes/default-bootstrap/js/tools/treeManagement.js"></script>
+		<script type="text/javascript" src="/themes/default-bootstrap/js/modules/blocknewsletter/blocknewsletter.js"></script>
+		<script type="text/javascript" src="/js/jquery/plugins/autocomplete/jquery.autocomplete.js"></script>
+		<script type="text/javascript" src="/themes/default-bootstrap/js/modules/blocksearch/blocksearch.js"></script>
+		<script type="text/javascript" src="/themes/default-bootstrap/js/modules/blockwishlist/js/ajax-wishlist.js"></script>
+		<script type="text/javascript" src="/themes/default-bootstrap/js/modules/blocktopmenu/js/hoverIntent.js"></script>
+		<script type="text/javascript" src="/themes/default-bootstrap/js/modules/blocktopmenu/js/superfish-modified.js"></script>
+		<script type="text/javascript" src="/themes/default-bootstrap/js/modules/blocktopmenu/js/blocktopmenu.js"></script>
+			
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
+		<!--[if IE 8]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+	<style type="text/css">.fancybox-margin{margin-right:17px;}</style></head>
+	<body id="history" class="history hide-left-column hide-right-column lang_en" style="">
+					<div id="page">
+			<div class="header-container">
+				<header id="header">
+					<div class="banner">
+						<div class="container">
+							<div class="row">
+								<a href="" title="">
+	<img class="img-responsive" src="http://automationpractice.com/modules/blockbanner/img/sale70.png" alt="" title="" width="1170" height="65" />
+</a>
+
+							</div>
+						</div>
+					</div>
+					<div class="nav">
+						<div class="container">
+							<div class="row">
+								<nav><!-- Block user information module NAV  -->
+	<div class="header_user_info">
+		<a href="http://automationpractice.com/index.php?controller=my-account" title="View my customer account" class="account" rel="nofollow"><span>Delia Londoño Zapata</span></a>
+	</div>
+<div class="header_user_info">
+			<a class="logout" href="http://automationpractice.com/index.php?mylogout=" rel="nofollow" title="Log me out">
+			Sign out
+		</a>
+	</div>
+<!-- /Block usmodule NAV -->
+<!-- Block languages module -->
+<!-- /Block languages module -->
+<div id="contact-link">
+	<a href="http://automationpractice.com/index.php?controller=contact" title="Contact Us">Contact us</a>
+</div>
+	<span class="shop-phone">
+		<i class="icon-phone"></i>Call us now: <strong>0123-456-789</strong>
+	</span>
+</nav>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="container">
+							<div class="row">
+								<div id="header_logo">
+									<a href="http://automationpractice.com/" title="My Store">
+										<img class="logo img-responsive" src="http://automationpractice.com/img/logo.jpg" alt="My Store" width="350" height="99" />
+									</a>
+								</div>
+								<!-- Block search module TOP -->
+<div id="search_block_top" class="col-sm-4 clearfix">
+	<form id="searchbox" method="get" action="http://automationpractice.com/index.php?controller=search">
+		<input type="hidden" name="controller" value="search" />
+		<input type="hidden" name="orderby" value="position" />
+		<input type="hidden" name="orderway" value="desc" />
+		<input class="search_query form-control ac_input" type="text" id="search_query_top" name="search_query" placeholder="Search" value="" autocomplete="off" />
+		<button type="submit" name="submit_search" class="btn btn-default button-search">
+			<span>Search</span>
+		</button>
+	</form>
+</div>
+<!-- /Block search module TOP --><!-- MODULE Block cart -->
+<div class="col-sm-4 clearfix">
+	<div class="shopping_cart">
+		<a href="http://automationpractice.com/index.php?controller=order" title="View my shopping cart" rel="nofollow">
+			<b>Cart</b>
+			<span class="ajax_cart_quantity unvisible">0</span>
+			<span class="ajax_cart_product_txt unvisible">Product</span>
+			<span class="ajax_cart_product_txt_s unvisible">Products</span>
+			<span class="ajax_cart_total unvisible">
+							</span>
+			<span class="ajax_cart_no_product">(empty)</span>
+					</a>
+					<div class="cart_block block exclusive">
+				<div class="block_content">
+					<!-- block list of products -->
+					<div class="cart_block_list">
+												<p class="cart_block_no_products">
+							No products
+						</p>
+												<div class="cart-prices">
+							<div class="cart-prices-line first-line">
+								<span class="price cart_block_shipping_cost ajax_cart_shipping_cost">
+																			Free shipping!
+																	</span>
+								<span>
+									Shipping
+								</span>
+							</div>
+																					<div class="cart-prices-line last-line">
+								<span class="price cart_block_total ajax_block_cart_total">$0.00</span>
+								<span>Total</span>
+							</div>
+													</div>
+						<p class="cart-buttons">
+							<a id="button_order_cart" class="btn btn-default button button-small" href="http://automationpractice.com/index.php?controller=order" title="Check out" rel="nofollow">
+								<span>
+									Check out<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+						</p>
+					</div>
+				</div>
+			</div><!-- .cart_block -->
+			</div>
+</div>
+
+	<div id="layer_cart">
+		<div class="clearfix">
+			<div class="layer_cart_product col-xs-12 col-md-6">
+				<span class="cross" title="Close window"></span>
+				<h2>
+					<i class="icon-ok"></i>Product successfully added to your shopping cart
+				</h2>
+				<div class="product-image-container layer_cart_img">
+				</div>
+				<div class="layer_cart_product_info">
+					<span id="layer_cart_product_title" class="product-name"></span>
+					<span id="layer_cart_product_attributes"></span>
+					<div>
+						<strong class="dark">Quantity</strong>
+						<span id="layer_cart_product_quantity"></span>
+					</div>
+					<div>
+						<strong class="dark">Total</strong>
+						<span id="layer_cart_product_price"></span>
+					</div>
+				</div>
+			</div>
+			<div class="layer_cart_cart col-xs-12 col-md-6">
+				<h2>
+					<!-- Plural Case [both cases are needed because page may be updated in Javascript] -->
+					<span class="ajax_cart_product_txt_s  unvisible">
+						There are <span class="ajax_cart_quantity">0</span> items in your cart.
+					</span>
+					<!-- Singular Case [both cases are needed because page may be updated in Javascript] -->
+					<span class="ajax_cart_product_txt ">
+						There is 1 item in your cart.
+					</span>
+				</h2>
+	
+				<div class="layer_cart_row">
+					<strong class="dark">
+						Total products
+											</strong>
+					<span class="ajax_block_products_total">
+											</span>
+				</div>
+	
+								<div class="layer_cart_row">
+					<strong class="dark">
+						Total shipping 					</strong>
+					<span class="ajax_cart_shipping_cost">
+													Free shipping!
+											</span>
+				</div>
+								<div class="layer_cart_row">	
+					<strong class="dark">
+						Total
+											</strong>
+					<span class="ajax_block_cart_total">
+											</span>
+				</div>
+				<div class="button-container">	
+					<span class="continue btn btn-default button exclusive-medium" title="Continue shopping">
+						<span>
+							<i class="icon-chevron-left left"></i>Continue shopping
+						</span>
+					</span>
+					<a class="btn btn-default button button-medium" href="http://automationpractice.com/index.php?controller=order" title="Proceed to checkout" rel="nofollow">
+						<span>
+							Proceed to checkout<i class="icon-chevron-right right"></i>
+						</span>
+					</a>	
+				</div>
+			</div>
+		</div>
+		<div class="crossseling"></div>
+	</div> <!-- #layer_cart -->
+	<div class="layer_cart_overlay"></div>
+
+<!-- /MODULE Block cart -->	<!-- Menu -->
+	<div id="block_top_menu" class="sf-contener clearfix col-lg-12">
+		<div class="cat-title">Categories</div>
+		<ul class="sf-menu clearfix menu-content sf-js-enabled sf-arrows">
+			<li><a href="http://automationpractice.com/index.php?id_category=3&amp;controller=category" title="Women" class="sf-with-ul">Women</a><ul class="submenu-container clearfix first-in-line-xs" style="display: none;"><li><a href="http://automationpractice.com/index.php?id_category=4&amp;controller=category" title="Tops" class="sf-with-ul">Tops</a><ul style="display: none;"><li><a href="http://automationpractice.com/index.php?id_category=5&amp;controller=category" title="T-shirts">T-shirts</a></li><li><a href="http://automationpractice.com/index.php?id_category=7&amp;controller=category" title="Blouses">Blouses</a></li></ul></li><li><a href="http://automationpractice.com/index.php?id_category=8&amp;controller=category" title="Dresses" class="sf-with-ul">Dresses</a><ul style="display: none;"><li><a href="http://automationpractice.com/index.php?id_category=9&amp;controller=category" title="Casual Dresses">Casual Dresses</a></li><li><a href="http://automationpractice.com/index.php?id_category=10&amp;controller=category" title="Evening Dresses">Evening Dresses</a></li><li><a href="http://automationpractice.com/index.php?id_category=11&amp;controller=category" title="Summer Dresses">Summer Dresses</a></li></ul></li><li id="category-thumbnail"><div><img src="http://automationpractice.com/img/c/3-0_thumb.jpg" alt="Women" title="Women" class="imgm" /></div><div><img src="http://automationpractice.com/img/c/3-1_thumb.jpg" alt="Women" title="Women" class="imgm" /></div></li></ul></li><li><a href="http://automationpractice.com/index.php?id_category=8&amp;controller=category" title="Dresses" class="sf-with-ul">Dresses</a><ul class="submenu-container clearfix first-in-line-xs" style="display: none;"><li><a href="http://automationpractice.com/index.php?id_category=9&amp;controller=category" title="Casual Dresses">Casual Dresses</a></li><li><a href="http://automationpractice.com/index.php?id_category=10&amp;controller=category" title="Evening Dresses">Evening Dresses</a></li><li><a href="http://automationpractice.com/index.php?id_category=11&amp;controller=category" title="Summer Dresses">Summer Dresses</a></li></ul></li><li><a href="http://automationpractice.com/index.php?id_category=5&amp;controller=category" title="T-shirts">T-shirts</a></li>
+					</ul>
+	</div>
+	<!--/ Menu -->
+							</div>
+						</div>
+					</div>
+				</header>
+			</div>
+			<div class="columns-container">
+				<div id="columns" class="container">
+											
+<!-- Breadcrumb -->
+<div class="breadcrumb clearfix">
+	<a class="home" href="http://automationpractice.com/" title="Return to Home"><i class="icon-home"></i></a>
+			<span class="navigation-pipe">&gt;</span>
+						<a href="http://automationpractice.com/index.php?controller=my-account">
+		My account
+	</a>
+	<span class="navigation-pipe">&gt;</span>
+	<span class="navigation_page">Order history</span>
+
+			</div>
+<!-- /Breadcrumb -->
+										<div id="slider_row" class="row">
+						<div id="top_column" class="center_column col-xs-12 col-sm-12"></div>
+					</div>
+					<div class="row">
+																		<div id="center_column" class="center_column col-xs-12 col-sm-12">
+	
+
+<h1 class="page-heading bottom-indent">Order history</h1>
+<p class="info-title">Here are the orders you've placed since your account was created.</p>
+<div class="block-center" id="block-history">
+			<table id="order-list" class="table table-bordered footab tablet breakpoint footable-loaded footable">
+			<thead>
+				<tr>
+					<th class="first_item footable-first-column" data-sort-ignore="true">Order reference</th>
+					<th class="item footable-sortable">Date<span class="footable-sort-indicator"></span></th>
+					<th data-hide="phone" class="item footable-sortable">Total price<span class="footable-sort-indicator"></span></th>
+					<th data-sort-ignore="true" data-hide="phone,tablet" class="item" style="display: none;">Payment</th>
+					<th class="item footable-last-column footable-sortable">Status<span class="footable-sort-indicator"></span></th>
+					<th data-sort-ignore="true" data-hide="phone,tablet" class="item" style="display: none;">Invoice</th>
+					<th data-sort-ignore="true" data-hide="phone,tablet" class="last_item" style="display: none;"> </th>
+				</tr>
+			</thead>
+			<tbody>
+									<tr class="first_item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81649, 'http://automationpractice.com/index.php?controller=order-detail');">
+								VYNOGFPZH
+							</a>
+						</td>
+						<td data-value="20181110193937" class="history_date bold">
+							11/10/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81649" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81649, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81649" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81647, 'http://automationpractice.com/index.php?controller=order-detail');">
+								MHSTDKJKZ
+							</a>
+						</td>
+						<td data-value="20181110193327" class="history_date bold">
+							11/10/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81647" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81647, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81647" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81646, 'http://automationpractice.com/index.php?controller=order-detail');">
+								NFJEAUBMC
+							</a>
+						</td>
+						<td data-value="20181110192930" class="history_date bold">
+							11/10/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81646" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81646, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81646" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81645, 'http://automationpractice.com/index.php?controller=order-detail');">
+								VGGTBPKSI
+							</a>
+						</td>
+						<td data-value="20181110192723" class="history_date bold">
+							11/10/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81645" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81645, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81645" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81644, 'http://automationpractice.com/index.php?controller=order-detail');">
+								VLJJCJSCY
+							</a>
+						</td>
+						<td data-value="20181110191626" class="history_date bold">
+							11/10/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81644" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81644, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81644" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81643, 'http://automationpractice.com/index.php?controller=order-detail');">
+								XEYHKKJSD
+							</a>
+						</td>
+						<td data-value="20181110191237" class="history_date bold">
+							11/10/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81643" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81643, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81643" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81642, 'http://automationpractice.com/index.php?controller=order-detail');">
+								NNPILBJUH
+							</a>
+						</td>
+						<td data-value="20181110190843" class="history_date bold">
+							11/10/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81642" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81642, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81642" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81636, 'http://automationpractice.com/index.php?controller=order-detail');">
+								VPSTQORLH
+							</a>
+						</td>
+						<td data-value="20181110181110" class="history_date bold">
+							11/10/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81636" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81636, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81636" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81635, 'http://automationpractice.com/index.php?controller=order-detail');">
+								OHBKMTGWG
+							</a>
+						</td>
+						<td data-value="20181110175614" class="history_date bold">
+							11/10/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81635" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81635, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81635" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81634, 'http://automationpractice.com/index.php?controller=order-detail');">
+								XHEZBMMOF
+							</a>
+						</td>
+						<td data-value="20181110175427" class="history_date bold">
+							11/10/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81634" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81634, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81634" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81633, 'http://automationpractice.com/index.php?controller=order-detail');">
+								DDSNNDXRM
+							</a>
+						</td>
+						<td data-value="20181110175051" class="history_date bold">
+							11/10/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81633" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81633, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81633" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81550, 'http://automationpractice.com/index.php?controller=order-detail');">
+								UFSCVFWLI
+							</a>
+						</td>
+						<td data-value="20181109212738" class="history_date bold">
+							11/09/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81550" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81550, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81550" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81549, 'http://automationpractice.com/index.php?controller=order-detail');">
+								CVUZGRCRS
+							</a>
+						</td>
+						<td data-value="20181109212510" class="history_date bold">
+							11/09/2018
+						</td>
+						<td class="history_price" data-value="18.51">
+							<span class="price">
+								$18.51
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81549" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81549, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81549" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81548, 'http://automationpractice.com/index.php?controller=order-detail');">
+								GAQTEMCUY
+							</a>
+						</td>
+						<td data-value="20181109212231" class="history_date bold">
+							11/09/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81548" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81548, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81548" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81547, 'http://automationpractice.com/index.php?controller=order-detail');">
+								YRBKGMHVA
+							</a>
+						</td>
+						<td data-value="20181109204304" class="history_date bold">
+							11/09/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81547" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81547, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81547" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81546, 'http://automationpractice.com/index.php?controller=order-detail');">
+								ZKHVRLAJA
+							</a>
+						</td>
+						<td data-value="20181109203950" class="history_date bold">
+							11/09/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81546" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81546, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81546" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81545, 'http://automationpractice.com/index.php?controller=order-detail');">
+								LVEYCRCBU
+							</a>
+						</td>
+						<td data-value="20181109202740" class="history_date bold">
+							11/09/2018
+						</td>
+						<td class="history_price" data-value="34.80">
+							<span class="price">
+								$34.80
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81545" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81545, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81545" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81508, 'http://automationpractice.com/index.php?controller=order-detail');">
+								NASHVPLMV
+							</a>
+						</td>
+						<td data-value="20181109135847" class="history_date bold">
+							11/09/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81508" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81508, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81508" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81507, 'http://automationpractice.com/index.php?controller=order-detail');">
+								JOLIDFAOO
+							</a>
+						</td>
+						<td data-value="20181109135703" class="history_date bold">
+							11/09/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81507" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81507, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81507" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81505, 'http://automationpractice.com/index.php?controller=order-detail');">
+								FTFHKLDXP
+							</a>
+						</td>
+						<td data-value="20181109134620" class="history_date bold">
+							11/09/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81505" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81505, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81505" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81488, 'http://automationpractice.com/index.php?controller=order-detail');">
+								VEIKBURRC
+							</a>
+						</td>
+						<td data-value="20181109102145" class="history_date bold">
+							11/09/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81488" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81488, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81488" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81414, 'http://automationpractice.com/index.php?controller=order-detail');">
+								AYOSOXEHC
+							</a>
+						</td>
+						<td data-value="20181108235023" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81414" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81414, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81414" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81412, 'http://automationpractice.com/index.php?controller=order-detail');">
+								HOJCYDYJP
+							</a>
+						</td>
+						<td data-value="20181108234008" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81412" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81412, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81412" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81411, 'http://automationpractice.com/index.php?controller=order-detail');">
+								QSHOOELSF
+							</a>
+						</td>
+						<td data-value="20181108232130" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81411" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81411, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81411" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81410, 'http://automationpractice.com/index.php?controller=order-detail');">
+								AUESWMQBW
+							</a>
+						</td>
+						<td data-value="20181108231531" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81410" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81410, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81410" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81409, 'http://automationpractice.com/index.php?controller=order-detail');">
+								IICQLFNFA
+							</a>
+						</td>
+						<td data-value="20181108231348" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81409" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81409, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81409" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81408, 'http://automationpractice.com/index.php?controller=order-detail');">
+								ERTBMPOQS
+							</a>
+						</td>
+						<td data-value="20181108224731" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81408" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81408, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81408" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81407, 'http://automationpractice.com/index.php?controller=order-detail');">
+								LOKMQCNFS
+							</a>
+						</td>
+						<td data-value="20181108224328" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81407" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81407, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81407" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81406, 'http://automationpractice.com/index.php?controller=order-detail');">
+								DCFWZPTRP
+							</a>
+						</td>
+						<td data-value="20181108223621" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81406" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81406, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81406" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81405, 'http://automationpractice.com/index.php?controller=order-detail');">
+								BPHYCRFAT
+							</a>
+						</td>
+						<td data-value="20181108221850" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81405" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81405, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81405" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81404, 'http://automationpractice.com/index.php?controller=order-detail');">
+								JKXFSBVBG
+							</a>
+						</td>
+						<td data-value="20181108215943" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81404" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81404, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81404" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81403, 'http://automationpractice.com/index.php?controller=order-detail');">
+								ZTZGLUZBE
+							</a>
+						</td>
+						<td data-value="20181108215544" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81403" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81403, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81403" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81402, 'http://automationpractice.com/index.php?controller=order-detail');">
+								RIRNVEFDQ
+							</a>
+						</td>
+						<td data-value="20181108215038" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81402" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81402, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81402" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81401, 'http://automationpractice.com/index.php?controller=order-detail');">
+								MKIKVFJYM
+							</a>
+						</td>
+						<td data-value="20181108213344" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81401" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81401, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81401" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81388, 'http://automationpractice.com/index.php?controller=order-detail');">
+								ZZTKZGYDK
+							</a>
+						</td>
+						<td data-value="20181108134430" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81388" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81388, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81388" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81383, 'http://automationpractice.com/index.php?controller=order-detail');">
+								DCMYPGMVM
+							</a>
+						</td>
+						<td data-value="20181108132647" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81383" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81383, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81383" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81373, 'http://automationpractice.com/index.php?controller=order-detail');">
+								BDGCRIHZW
+							</a>
+						</td>
+						<td data-value="20181108125223" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81373" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81373, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81373" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81372, 'http://automationpractice.com/index.php?controller=order-detail');">
+								MUWQYINDM
+							</a>
+						</td>
+						<td data-value="20181108125116" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81372" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81372, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81372" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81368, 'http://automationpractice.com/index.php?controller=order-detail');">
+								HJNYFRTPR
+							</a>
+						</td>
+						<td data-value="20181108121406" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81368" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81368, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81368" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81367, 'http://automationpractice.com/index.php?controller=order-detail');">
+								ZOTOLICDV
+							</a>
+						</td>
+						<td data-value="20181108121300" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81367" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81367, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81367" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81366, 'http://automationpractice.com/index.php?controller=order-detail');">
+								HXLGSSUMM
+							</a>
+						</td>
+						<td data-value="20181108115540" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81366" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81366, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81366" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81365, 'http://automationpractice.com/index.php?controller=order-detail');">
+								WQRKBNMVX
+							</a>
+						</td>
+						<td data-value="20181108115359" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81365" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81365, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81365" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81364, 'http://automationpractice.com/index.php?controller=order-detail');">
+								ZQPCXVXDK
+							</a>
+						</td>
+						<td data-value="20181108115236" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81364" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81364, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81364" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81353, 'http://automationpractice.com/index.php?controller=order-detail');">
+								VZILDBJUH
+							</a>
+						</td>
+						<td data-value="20181108110406" class="history_date bold">
+							11/08/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81353" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81353, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81353" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81220, 'http://automationpractice.com/index.php?controller=order-detail');">
+								KHICRWCZY
+							</a>
+						</td>
+						<td data-value="20181107165641" class="history_date bold">
+							11/07/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81220" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81220, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81220" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81219, 'http://automationpractice.com/index.php?controller=order-detail');">
+								IZPSBDSKL
+							</a>
+						</td>
+						<td data-value="20181107164941" class="history_date bold">
+							11/07/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81219" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81219, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81219" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81218, 'http://automationpractice.com/index.php?controller=order-detail');">
+								XOOCNQAYH
+							</a>
+						</td>
+						<td data-value="20181107162744" class="history_date bold">
+							11/07/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81218" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81218, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81218" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81208, 'http://automationpractice.com/index.php?controller=order-detail');">
+								JMNMGKVWW
+							</a>
+						</td>
+						<td data-value="20181107152050" class="history_date bold">
+							11/07/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81208" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81208, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81208" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81207, 'http://automationpractice.com/index.php?controller=order-detail');">
+								OIUPAWRTJ
+							</a>
+						</td>
+						<td data-value="20181107144128" class="history_date bold">
+							11/07/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81207" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81207, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81207" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81205, 'http://automationpractice.com/index.php?controller=order-detail');">
+								GQEVPTTIA
+							</a>
+						</td>
+						<td data-value="20181107143710" class="history_date bold">
+							11/07/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81205" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81205, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81205" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81200, 'http://automationpractice.com/index.php?controller=order-detail');">
+								HVRLPXDES
+							</a>
+						</td>
+						<td data-value="20181107111209" class="history_date bold">
+							11/07/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81200" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81200, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81200" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81199, 'http://automationpractice.com/index.php?controller=order-detail');">
+								QHMXJDMPB
+							</a>
+						</td>
+						<td data-value="20181107105853" class="history_date bold">
+							11/07/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81199" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81199, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81199" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81188, 'http://automationpractice.com/index.php?controller=order-detail');">
+								NVQAORGGK
+							</a>
+						</td>
+						<td data-value="20181107104504" class="history_date bold">
+							11/07/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81188" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81188, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81188" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81186, 'http://automationpractice.com/index.php?controller=order-detail');">
+								KZTCMEMKF
+							</a>
+						</td>
+						<td data-value="20181107100632" class="history_date bold">
+							11/07/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81186" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81186, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81186" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81181, 'http://automationpractice.com/index.php?controller=order-detail');">
+								VQFAHHUZJ
+							</a>
+						</td>
+						<td data-value="20181107091635" class="history_date bold">
+							11/07/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81181" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81181, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81181" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81180, 'http://automationpractice.com/index.php?controller=order-detail');">
+								CUGERBGPV
+							</a>
+						</td>
+						<td data-value="20181107091516" class="history_date bold">
+							11/07/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81180" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81180, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81180" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81179, 'http://automationpractice.com/index.php?controller=order-detail');">
+								NVKSVQWJX
+							</a>
+						</td>
+						<td data-value="20181107091301" class="history_date bold">
+							11/07/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81179" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81179, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81179" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81175, 'http://automationpractice.com/index.php?controller=order-detail');">
+								ZOLROPPYK
+							</a>
+						</td>
+						<td data-value="20181107083502" class="history_date bold">
+							11/07/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81175" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81175, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81175" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81126, 'http://automationpractice.com/index.php?controller=order-detail');">
+								USNTLZJZS
+							</a>
+						</td>
+						<td data-value="20181106170107" class="history_date bold">
+							11/06/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81126" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81126, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81126" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81125, 'http://automationpractice.com/index.php?controller=order-detail');">
+								ORYTSGSAG
+							</a>
+						</td>
+						<td data-value="20181106165908" class="history_date bold">
+							11/06/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81125" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81125, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81125" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81124, 'http://automationpractice.com/index.php?controller=order-detail');">
+								BUZQHIFDK
+							</a>
+						</td>
+						<td data-value="20181106162639" class="history_date bold">
+							11/06/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81124" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81124, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81124" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81121, 'http://automationpractice.com/index.php?controller=order-detail');">
+								KXRIPDIZY
+							</a>
+						</td>
+						<td data-value="20181106153633" class="history_date bold">
+							11/06/2018
+						</td>
+						<td class="history_price" data-value="52.99">
+							<span class="price">
+								$52.99
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81121" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81121, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81121" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81120, 'http://automationpractice.com/index.php?controller=order-detail');">
+								RSDYSTMQL
+							</a>
+						</td>
+						<td data-value="20181106151840" class="history_date bold">
+							11/06/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81120" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81120, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81120" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81119, 'http://automationpractice.com/index.php?controller=order-detail');">
+								HBUMLAFRA
+							</a>
+						</td>
+						<td data-value="20181106151316" class="history_date bold">
+							11/06/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81119" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81119, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81119" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 81118, 'http://automationpractice.com/index.php?controller=order-detail');">
+								ZNWKYAHHF
+							</a>
+						</td>
+						<td data-value="20181106150259" class="history_date bold">
+							11/06/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=81118" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 81118, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=81118" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80757, 'http://automationpractice.com/index.php?controller=order-detail');">
+								BZABZKPVY
+							</a>
+						</td>
+						<td data-value="20181105225506" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="65.30">
+							<span class="price">
+								$65.30
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80757" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80757, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80757" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80756, 'http://automationpractice.com/index.php?controller=order-detail');">
+								OQFTUPQEI
+							</a>
+						</td>
+						<td data-value="20181105225215" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80756" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80756, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80756" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80748, 'http://automationpractice.com/index.php?controller=order-detail');">
+								XPZLHTRCY
+							</a>
+						</td>
+						<td data-value="20181105223740" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="32.50">
+							<span class="price">
+								$32.50
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80748" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80748, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80748" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80746, 'http://automationpractice.com/index.php?controller=order-detail');">
+								HIAYLHWUS
+							</a>
+						</td>
+						<td data-value="20181105223617" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80746" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80746, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80746" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80745, 'http://automationpractice.com/index.php?controller=order-detail');">
+								LQJAMCXIP
+							</a>
+						</td>
+						<td data-value="20181105223358" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80745" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80745, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80745" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80726, 'http://automationpractice.com/index.php?controller=order-detail');">
+								GMLOCGKDW
+							</a>
+						</td>
+						<td data-value="20181105215706" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="18.40">
+							<span class="price">
+								$18.40
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80726" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80726, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80726" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80725, 'http://automationpractice.com/index.php?controller=order-detail');">
+								RKMLYYMHC
+							</a>
+						</td>
+						<td data-value="20181105211933" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80725" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80725, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80725" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80724, 'http://automationpractice.com/index.php?controller=order-detail');">
+								FWBODOJVJ
+							</a>
+						</td>
+						<td data-value="20181105211804" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80724" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80724, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80724" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80722, 'http://automationpractice.com/index.php?controller=order-detail');">
+								TQTPMWEOJ
+							</a>
+						</td>
+						<td data-value="20181105211225" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80722" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80722, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80722" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80721, 'http://automationpractice.com/index.php?controller=order-detail');">
+								TGEGYGGAG
+							</a>
+						</td>
+						<td data-value="20181105211027" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80721" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80721, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80721" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80720, 'http://automationpractice.com/index.php?controller=order-detail');">
+								QJWTNPMQN
+							</a>
+						</td>
+						<td data-value="20181105210811" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80720" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80720, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80720" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80717, 'http://automationpractice.com/index.php?controller=order-detail');">
+								YIALIWCKH
+							</a>
+						</td>
+						<td data-value="20181105203307" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80717" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80717, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80717" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80716, 'http://automationpractice.com/index.php?controller=order-detail');">
+								AKYUUKJLA
+							</a>
+						</td>
+						<td data-value="20181105201432" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80716" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80716, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80716" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80715, 'http://automationpractice.com/index.php?controller=order-detail');">
+								GEYOLTXOP
+							</a>
+						</td>
+						<td data-value="20181105201303" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80715" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80715, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80715" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80714, 'http://automationpractice.com/index.php?controller=order-detail');">
+								WRGGRNEZP
+							</a>
+						</td>
+						<td data-value="20181105201157" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80714" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80714, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80714" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80712, 'http://automationpractice.com/index.php?controller=order-detail');">
+								FZXVUAJML
+							</a>
+						</td>
+						<td data-value="20181105195812" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80712" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80712, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80712" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80710, 'http://automationpractice.com/index.php?controller=order-detail');">
+								RCIWABWGC
+							</a>
+						</td>
+						<td data-value="20181105191901" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80710" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80710, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80710" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80709, 'http://automationpractice.com/index.php?controller=order-detail');">
+								OTHTJCXZA
+							</a>
+						</td>
+						<td data-value="20181105191711" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80709" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80709, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80709" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80708, 'http://automationpractice.com/index.php?controller=order-detail');">
+								WWNQHHCRY
+							</a>
+						</td>
+						<td data-value="20181105191433" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80708" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80708, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80708" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80706, 'http://automationpractice.com/index.php?controller=order-detail');">
+								AZEDXUOBL
+							</a>
+						</td>
+						<td data-value="20181105185517" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80706" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80706, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80706" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80705, 'http://automationpractice.com/index.php?controller=order-detail');">
+								CMPGVREBQ
+							</a>
+						</td>
+						<td data-value="20181105185414" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80705" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80705, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80705" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80704, 'http://automationpractice.com/index.php?controller=order-detail');">
+								IJUNRFYEA
+							</a>
+						</td>
+						<td data-value="20181105185313" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80704" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80704, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80704" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80703, 'http://automationpractice.com/index.php?controller=order-detail');">
+								XXQRSFJAS
+							</a>
+						</td>
+						<td data-value="20181105185158" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80703" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80703, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80703" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80702, 'http://automationpractice.com/index.php?controller=order-detail');">
+								KOOJMWBWP
+							</a>
+						</td>
+						<td data-value="20181105185107" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80702" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80702, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80702" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80699, 'http://automationpractice.com/index.php?controller=order-detail');">
+								TGBPEDUCU
+							</a>
+						</td>
+						<td data-value="20181105184728" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80699" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80699, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80699" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="item ">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80698, 'http://automationpractice.com/index.php?controller=order-detail');">
+								YQOTMQNBI
+							</a>
+						</td>
+						<td data-value="20181105184553" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="30.98">
+							<span class="price">
+								$30.98
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80698" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80698, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80698" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+									<tr class="last_item alternate_item">
+						<td class="history_link bold footable-first-column"><span class="footable-toggle"></span>
+														<a class="color-myaccount" href="javascript:showOrder(1, 80697, 'http://automationpractice.com/index.php?controller=order-detail');">
+								JBVDBNXOY
+							</a>
+						</td>
+						<td data-value="20181105181540" class="history_date bold">
+							11/05/2018
+						</td>
+						<td class="history_price" data-value="34.80">
+							<span class="price">
+								$34.80
+							</span>
+						</td>
+						<td class="history_method" style="display: none;">Payment by check</td>
+						<td data-value="9" class="history_state footable-last-column">
+															<span class="label dark" style="background-color:#FF69B4; border-color:#FF69B4;">
+									On backorder
+								</span>
+													</td>
+						<td class="history_invoice" style="display: none;">
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=pdf-invoice&amp;id_order=80697" title="Invoice" target="_blank">
+									<i class="icon-file-text large"></i>PDF
+								</a>
+													</td>
+						<td class="history_detail" style="display: none;">
+							<a class="btn btn-default button button-small" href="javascript:showOrder(1, 80697, 'http://automationpractice.com/index.php?controller=order-detail');">
+								<span>
+									Details<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+															<a class="link-button" href="http://automationpractice.com/index.php?controller=order&amp;submitReorder=&amp;id_order=80697" title="Reorder">
+																								<i class="icon-refresh"></i>Reorder
+															</a>
+						</td>
+					</tr>
+							</tbody>
+		</table>
+		<div id="block-order-detail" class="unvisible"> </div>
+	</div>
+<ul class="footer_links clearfix">
+	<li>
+		<a class="btn btn-default button button-small" href="http://automationpractice.com/index.php?controller=my-account">
+			<span>
+				<i class="icon-chevron-left"></i> Back to your account.
+			</span>
+		</a>
+	</li>
+	<li>
+		<a class="btn btn-default button button-small" href="http://automationpractice.com/">
+			<span><i class="icon-chevron-left"></i> Home</span>
+		</a>
+	</li>
+</ul>
+					</div><!-- #center_column -->
+										</div><!-- .row -->
+				</div><!-- #columns -->
+			</div><!-- .columns-container -->
+							<!-- Footer -->
+				<div class="footer-container">
+					<footer id="footer" class="container">
+						<div class="row"><!-- Block Newsletter module-->
+<div id="newsletter_block_left" class="block">
+	<h4>Newsletter</h4>
+	<div class="block_content">
+		<form action="http://automationpractice.com/index.php" method="post">
+			<div class="form-group">
+				<input class="inputNew form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="Enter your e-mail" />
+                <button type="submit" name="submitNewsletter" class="btn btn-default button button-small">
+                    <span>Ok</span>
+                </button>
+				<input type="hidden" name="action" value="0" />
+			</div>
+		</form>
+	</div>
+</div>
+<!-- /Block Newsletter module-->
+<section id="social_block">
+	<ul>
+					<li class="facebook">
+				<a target="_blank" href="https://www.facebook.com/groups/525066904174158/">
+					<span>Facebook</span>
+				</a>
+			</li>
+							<li class="twitter">
+				<a target="_blank" href="https://twitter.com/seleniumfrmwrk">
+					<span>Twitter</span>
+				</a>
+			</li>
+				                	<li class="youtube">
+        		<a target="_blank" href="https://www.youtube.com/channel/UCHl59sI3SRjQ-qPcTrgt0tA">
+        			<span>Youtube</span>
+        		</a>
+        	</li>
+                        	<li class="google-plus">
+        		<a target="_blank" href="https://plus.google.com/111979135243110831526/posts">
+        			<span>Google Plus</span>
+        		</a>
+        	</li>
+                	</ul>
+    <h4>Follow us</h4>
+</section>
+<div class="clearfix"></div>
+<!-- Block categories module -->
+<section class="blockcategories_footer footer-block col-xs-12 col-sm-2">
+	<h4>Categories</h4>
+	<div class="category_footer toggle-footer" style="">
+		<div class="list">
+			<ul class="tree dynamized" style="display: block;">
+												
+<li class="last">
+	<span class="grower CLOSE"> </span><a href="http://automationpractice.com/index.php?id_category=3&amp;controller=category" title="You will find here all woman fashion collections.  &#10; This category includes all the basics of your wardrobe and much more: &#10; shoes, accessories, printed t-shirts, feminine dresses, women's jeans!">
+		Women
+	</a>
+			<ul style="display: none;">
+												
+<li>
+	<span class="grower CLOSE"> </span><a href="http://automationpractice.com/index.php?id_category=4&amp;controller=category" title="Choose from t-shirts, tops, blouses, short sleeves, long sleeves, tank tops, 3/4 sleeves and more. &#10; Find the cut that suits you the best!">
+		Tops
+	</a>
+			<ul style="display: none;">
+												
+<li>
+	<a href="http://automationpractice.com/index.php?id_category=5&amp;controller=category" title="The must have of your wardrobe, take a look at our different colors, &#10; shapes and style of our collection!">
+		T-shirts
+	</a>
+	</li>
+
+																
+<li class="last">
+	<a href="http://automationpractice.com/index.php?id_category=7&amp;controller=category" title="Match your favorites blouses with the right accessories for the perfect look.">
+		Blouses
+	</a>
+	</li>
+
+									</ul>
+	</li>
+
+																
+<li class="last">
+	<span class="grower CLOSE"> </span><a href="http://automationpractice.com/index.php?id_category=8&amp;controller=category" title="Find your favorites dresses from our wide choice of evening, casual or summer dresses! &#10; We offer dresses for every day, every style and every occasion.">
+		Dresses
+	</a>
+			<ul style="display: none;">
+												
+<li>
+	<a href="http://automationpractice.com/index.php?id_category=9&amp;controller=category" title="You are looking for a dress for every day? Take a look at &#10; our selection of dresses to find one that suits you.">
+		Casual Dresses
+	</a>
+	</li>
+
+																
+<li>
+	<a href="http://automationpractice.com/index.php?id_category=10&amp;controller=category" title="Browse our different dresses to choose the perfect dress for an unforgettable evening!">
+		Evening Dresses
+	</a>
+	</li>
+
+																
+<li class="last">
+	<a href="http://automationpractice.com/index.php?id_category=11&amp;controller=category" title="Short dress, long dress, silk dress, printed dress, you will find the perfect dress for summer.">
+		Summer Dresses
+	</a>
+	</li>
+
+									</ul>
+	</li>
+
+									</ul>
+	</li>
+
+							
+										</ul>
+		</div>
+	</div> <!-- .category_footer -->
+</section>
+<!-- /Block categories module -->
+	<!-- MODULE Block footer -->
+	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
+		<h4>Information</h4>
+		<ul class="toggle-footer" style="">
+							<li class="item">
+					<a href="http://automationpractice.com/index.php?controller=prices-drop" title="Specials">
+						Specials
+					</a>
+				</li>
+									<li class="item">
+				<a href="http://automationpractice.com/index.php?controller=new-products" title="New products">
+					New products
+				</a>
+			</li>
+										<li class="item">
+					<a href="http://automationpractice.com/index.php?controller=best-sales" title="Best sellers">
+						Best sellers
+					</a>
+				</li>
+										<li class="item">
+					<a href="http://automationpractice.com/index.php?controller=stores" title="Our stores">
+						Our stores
+					</a>
+				</li>
+									<li class="item">
+				<a href="http://automationpractice.com/index.php?controller=contact" title="Contact us">
+					Contact us
+				</a>
+			</li>
+															<li class="item">
+						<a href="http://automationpractice.com/index.php?id_cms=3&amp;controller=cms" title="Terms and conditions of use">
+							Terms and conditions of use
+						</a>
+					</li>
+																<li class="item">
+						<a href="http://automationpractice.com/index.php?id_cms=4&amp;controller=cms" title="About us">
+							About us
+						</a>
+					</li>
+													<li>
+				<a href="http://automationpractice.com/index.php?controller=sitemap" title="Sitemap">
+					Sitemap
+				</a>
+			</li>
+					</ul>
+		
+	</section>
+		<section class="bottom-footer col-xs-12">
+		<div>
+			© 2014 <a class="_blank" href="http://www.prestashop.com" target="_blank">Ecommerce software by PrestaShop™</a>
+		</div>
+	</section>
+		<!-- /MODULE Block footer -->
+<!-- Block myaccount module -->
+<section class="footer-block col-xs-12 col-sm-4">
+	<h4><a href="http://automationpractice.com/index.php?controller=my-account" title="Manage my customer account" rel="nofollow">My account</a></h4>
+	<div class="block_content toggle-footer" style="">
+		<ul class="bullet">
+			<li><a href="http://automationpractice.com/index.php?controller=history" title="My orders" rel="nofollow">My orders</a></li>
+						<li><a href="http://automationpractice.com/index.php?controller=order-slip" title="My credit slips" rel="nofollow">My credit slips</a></li>
+			<li><a href="http://automationpractice.com/index.php?controller=addresses" title="My addresses" rel="nofollow">My addresses</a></li>
+			<li><a href="http://automationpractice.com/index.php?controller=identity" title="Manage my personal information" rel="nofollow">My personal info</a></li>
+						
+            <li><a href="http://automationpractice.com/index.php?mylogout" title="Sign out" rel="nofollow">Sign out</a></li>		</ul>
+	</div>
+</section>
+<!-- /Block myaccount module -->
+<!-- MODULE Block contact infos -->
+<section id="block_contact_infos" class="footer-block col-xs-12 col-sm-4">
+	<div>
+        <h4>Store information</h4>
+        <ul class="toggle-footer" style="">
+                        	<li>
+            		<i class="icon-map-marker"></i>Selenium Framework, Research Triangle Park,
+North Carolina,
+USA            	</li>
+                                    	<li>
+            		<i class="icon-phone"></i>Call us now: 
+            		<span>(347) 466-7432</span>
+            	</li>
+                                    	<li>
+            		<i class="icon-envelope-alt"></i>Email: 
+            		<span><a href="mailto:%73%75%70%70%6f%72%74@%73%65%6c%65%6e%69%75%6d%66%72%61%6d%65%77%6f%72%6b.%63%6f%6d">support@seleniumframework.com</a></span>
+            	</li>
+                    </ul>
+    </div>
+</section>
+<!-- /MODULE Block contact infos -->
+</div>
+					</footer>
+				</div><!-- #footer -->
+					</div><!-- #page -->
+</body></html>
